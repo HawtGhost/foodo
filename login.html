@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+    </style>
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/login.css">
+</head>
+<body>
+    <header>
+        <img id="logo_atas"src="/image/foodo_logo.png" alt="logo">
+        <img src="/image/Foodo.png" alt="">
+    </header>
+    <main>
+        <img id="mie" src="/image/mie.png" alt="">
+        <br><br><br><br>
+        <img id="loginlogo" src="/image/Login..png" alt="">
+        <br><br><br>
+        <form action="homepage.html"> 
+            <div class="text-field">
+                <label for="email">Email:
+                    <br>
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="Your Email"
+                        required>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
+                    </svg>
+                </label>
+            </div>
+            <br>
+            <div class="text-field">
+                <label for="password">Password:
+                    <br>
+                    <input id="password" type="password" name="password" placeholder="Your Password" title="Minimum 6 characters at 
+                                                    least 1 Alphabet and 1 Number"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z">
+                        </path>
+                        <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+                        <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+                    </svg>
+                </label>
+            </div>
+            <br><br>
+            <div class="button">
+                <button id="login" type="submit"><img src="/image/Login_button.png" alt=""></button>
+            </div>
+        </form>
+        <br>
+        <div class="sign_up">
+            <p>Don't have an account yet?</p>
+           <div class="signup">
+            <a href="signuppage.html" id="signup_btn" type="button" value="Sign Up" >Sign Up</a>
+           </div>
+        </div>
+    
+    </main>
+    <img id="nasigoreng"src="/image/nasi_goreng_login.png" alt="">
+</body>
+</html>
